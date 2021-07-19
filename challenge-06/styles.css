@@ -1,0 +1,83 @@
+:root {
+  --color-bg: #252525;
+  --color-primary: #484848;
+  --color-secondary: yellow;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-bg);
+}
+
+.text-wrapper > span {
+  text-transform: uppercase;
+  font-family: Roboto, 'sans-serif';
+  font-size: 50px;
+  color: var(--color-primary);
+  animation: blink 1s linear infinite;
+}
+
+.text-wrapper > span:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.text-wrapper > span:nth-child(2) {
+  animation-delay: 0.1s;
+}
+
+.text-wrapper > span:nth-child(3) {
+  animation-delay: 0.2s;
+}
+
+.text-wrapper > span:nth-child(4) {
+  animation-delay: 0.3s;
+}
+
+.text-wrapper > span:nth-child(5) {
+  animation-delay: 0.4s;
+}
+
+.text-wrapper > span:nth-child(6) {
+  animation-delay: 0.5s;
+}
+
+.text-wrapper > span:nth-child(7) {
+  animation-delay: 0.6s;
+}
+
+.text-wrapper > span:nth-child(8) {
+  animation-delay: 0.7s;
+}
+
+.text-wrapper > span:nth-child(9) {
+  animation-delay: 0.8s;
+}
+
+.text-wrapper > span:nth-child(10) {
+  animation-delay: 0.9s;
+}
+
+.text-wrapper > span:nth-child(11) {
+  animation-delay: 1s;
+}
+
+@keyframes blink {
+  0% {
+    color: var(--color-secondary);
+    text-shadow: var(--color-secondary) 0px 0px 15px;
+  }
+  15% {
+    color: var(--color-primary);
+    text-shadow: none;
+  }
+}
