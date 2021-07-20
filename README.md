@@ -1,11 +1,17 @@
 ## 30 dias de CSS
 
 * Dia 01 - Ícone de mídia social em camadas
+<img alt="challenge 01" title="challenge 01" src="./challenge-01/challenge-01.gif" width="500px">
 * Dia 02 - Loader animado
+<img alt="challenge 02" title="challenge 02" src="./challenge-02/challenge-02.gif" width="500px">
 * Dia 03 - Mudança de cor de texto quando entra em outra div
+<img alt="challenge 03" title="challenge 03" src="./challenge-03/challenge-03.gif" width="500px">
 * Dia 04 - Botão com efeito
+<img alt="challenge 04" title="challenge 04" src="./challenge-04/challenge-04.gif" width="500px">
 * Dia 05 - Efeito pulsar
+<img alt="challenge 05" title="challenge 05" src="./challenge-05/challenge-05.gif" width="500px">
 * Dia 06 - Efeito lightning text
+<img alt="challenge 06" title="challenge 06" src="./challenge-06/challenge-06.gif" width="500px">
 * Dia 07 - Preloader animado 
 * Dia 08 - Coração batendo
 * Dia 09 - Pendulo de Newton
