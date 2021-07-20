@@ -1,0 +1,91 @@
+:root {
+  --color-bg: #AF0CDA;
+  --color-loader-primary: white;
+  --color-loader-secondary: #252525;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-bg);
+}
+
+.loader-wrapper {
+  width: 160px;
+  height: 160px;
+  position: relative;
+}
+
+.loader-wrapper > div {
+  width: 34%;
+  height: 34%;
+  position: absolute;
+  border-style: solid;
+  border-width: 0.5px;
+  border-color: var(--color-loader-secondary);
+  border-radius: 4px;
+  background-color: var(--color-loader-primary);
+}
+
+.loader-wrapper > div:nth-child(1) {
+  animation: spin 1.5s linear infinite;
+  animation-delay: 0s;
+}
+
+.loader-wrapper > div:nth-child(2) {
+  animation: spin 1.5s linear infinite;
+  animation-delay: 0.5s;
+}
+
+.loader-wrapper > div:nth-child(3) {
+  animation: spin 1.5s linear infinite;
+  animation-delay: 1.0s;
+}
+
+@keyframes spin {
+  0% {
+    top: 0%;
+    left: 0%;
+  }
+  10% {
+    top: 0%;
+    left: 0%;
+  }
+  25% {
+    top: 0%;
+    left: 50%;
+  }
+  35% {
+    top: 0%;
+    left: 50%;
+  }
+  50% {
+    top: 50%;
+    left: 50%;
+  }
+  60% {
+    top: 50%;
+    left: 50%;
+  }
+  75% {
+    top: 50%;
+    left: 0%;
+  }
+  85% {
+    top: 50%;
+    left: 0%;
+  }
+  100% {
+    top: 0%;
+    left: 0%;
+  }
+}
