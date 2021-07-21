@@ -15,6 +15,7 @@
 ## Dia 07 - Preloader animado 
 <img alt="challenge 07" title="challenge 07" src="./challenge-07/challenge-07.gif" width="500px"><a></a>
 ## Dia 08 - Coração batendo
+<img alt="challenge 08" title="challenge 08" src="./challenge-08/challenge-08.gif" width="500px"><a></a>
 ## Dia 09 - Pendulo de Newton
 ## Dia 10 - Animação texto alternando
 ## Dia 11 - Botão com efeito hover
