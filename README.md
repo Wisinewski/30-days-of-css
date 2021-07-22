@@ -17,6 +17,7 @@
 ## Dia 08 - Coração batendo
 <img alt="challenge 08" title="challenge 08" src="./challenge-08/challenge-08.gif" width="500px"><a></a>
 ## Dia 09 - Pendulo de Newton
+<img alt="challenge 09" title="challenge 09" src="./challenge-09/challenge-09.gif" width="500px"><a></a>
 ## Dia 10 - Animação texto alternando
 ## Dia 11 - Botão com efeito hover
 ## Dia 12 - Efeito de preenchimento ao passar o mouse
