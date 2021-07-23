@@ -19,6 +19,7 @@
 ## Dia 09 - Pendulo de Newton
 <img alt="challenge 09" title="challenge 09" src="./challenge-09/challenge-09.gif" width="500px"><a></a>
 ## Dia 10 - Animação texto alternando
+<img alt="challenge 10" title="challenge 10" src="./challenge-10/challenge-10.gif" width="500px"><a></a>
 ## Dia 11 - Botão com efeito hover
 ## Dia 12 - Efeito de preenchimento ao passar o mouse
 ## Dia 13 - Loading com efeito
