@@ -21,6 +21,7 @@
 ## Dia 10 - Animação texto alternando
 <img alt="challenge 10" title="challenge 10" src="./challenge-10/challenge-10.gif" width="500px"><a></a>
 ## Dia 11 - Botão com efeito hover
+<img alt="challenge 11" title="challenge 11" src="./challenge-11/challenge-11.gif" width="500px"><a></a>
 ## Dia 12 - Efeito de preenchimento ao passar o mouse
 ## Dia 13 - Loading com efeito
 ## Dia 14 - Fundo de texto animado
