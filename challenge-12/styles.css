@@ -1,0 +1,46 @@
+:root {
+  --color-text: #FAC3C2;
+  --color-text-hover: tomato;
+  --color-bg: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: white;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text {
+  position: relative;
+  font-family: Roboto, 'sans-serif';
+  font-size: 80px;
+  text-transform: uppercase;
+  color: var(--color-text);
+}
+
+.text::before {
+  content: '#30diasdecss';
+  width: 0%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  transition: 0.5s;
+  color: var(--color-text-hover);
+}
+
+.text:hover::before {
+  width: 100%;
+}
