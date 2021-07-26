@@ -25,6 +25,7 @@
 ## Dia 12 - Efeito de preenchimento ao passar o mouse
 <img alt="challenge 12" title="challenge 12" src="./challenge-12/challenge-12.gif" width="500px"><a></a>
 ## Dia 13 - Loading com efeito
+<img alt="challenge 13" title="challenge 13" src="./challenge-13/challenge-13.gif" width="500px"><a></a>
 ## Dia 14 - Fundo de texto animado
 ## Dia 15 - Texto flutuante
 ## Dia 16 - Botão com efeito
