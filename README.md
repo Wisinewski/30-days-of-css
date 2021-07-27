@@ -27,6 +27,7 @@
 ## Dia 13 - Loading com efeito
 <img alt="challenge 13" title="challenge 13" src="./challenge-13/challenge-13.gif" width="500px"><a></a>
 ## Dia 14 - Fundo de texto animado
+<img alt="challenge 14" title="challenge 14" src="./challenge-14/challenge-14.gif" width="500px"><a></a>
 ## Dia 15 - Texto flutuante
 ## Dia 16 - Botão com efeito
 ## Dia 17 - Loader animado
