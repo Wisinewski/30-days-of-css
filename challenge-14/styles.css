@@ -1,0 +1,44 @@
+:root {
+  --color-bg: #A5B2B2;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-bg);
+}
+
+.container {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.text {
+  font-family: Roboto, 'sans-serif';
+  font-size: 7em;
+  text-transform: uppercase;
+  -webkit-background-clip: text;
+  background-image: url(image.jpg);
+  color: transparent;
+  animation: background 20s linear infinite;
+}
+
+@keyframes background {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 100% 100%;
+  }
+}
