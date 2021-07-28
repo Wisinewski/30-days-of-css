@@ -1,0 +1,46 @@
+:root {
+  --color-bg: #E8606E;
+  --color-text: white;
+  --color-text-shadow: #D25667;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-bg);
+}
+
+.container {
+  width: 500px;
+  text-align: center;
+  animation: swing 3s linear infinite;
+}
+
+.text {
+  font-family: Roboto, 'sans-serif';
+  font-size: 96px;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  color: var(--color-text);
+  text-shadow: 0px 20px 5px var(--color-text-shadow);
+}
+
+@keyframes swing {
+  0% {
+    transform: rotate(-5deg)
+  }
+  50% {
+    transform: rotate(5deg)
+  }
+  100% {
+    transform: rotate(-5deg)
+  }
+}
