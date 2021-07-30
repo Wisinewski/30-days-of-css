@@ -33,6 +33,7 @@
 ## Dia 16 - Botão com efeito
 <img alt="challenge 16" title="challenge 16" src="./challenge-16/challenge-16.gif" width="500px"><a></a>
 ## Dia 17 - Loader animado
+<img alt="challenge 17" title="challenge 17" src="./challenge-17/challenge-17.gif" width="500px"><a></a>
 ## Dia 18 - Texto esfumaçado
 ## Dia 19 - Efeitos de animação de fundo de partículas
 ## Dia 20 - Botão com efeito
