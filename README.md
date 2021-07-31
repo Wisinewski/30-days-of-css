@@ -35,6 +35,7 @@
 ## Dia 17 - Loader animado
 <img alt="challenge 17" title="challenge 17" src="./challenge-17/challenge-17.gif" width="500px"><a></a>
 ## Dia 18 - Texto esfumaçado
+<img alt="challenge 18" title="challenge 18" src="./challenge-18/challenge-18.gif" width="500px"><a></a>
 ## Dia 19 - Efeitos de animação de fundo de partículas
 ## Dia 20 - Botão com efeito
 ## Dia 21 - Esferas quicando
