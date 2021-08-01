@@ -1,0 +1,122 @@
+:root {
+  --color-bg: black;
+  --color-particle-1: pink;
+  --color-particle-2: orange;
+  --color-particle-3: green;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  overflow: hidden;
+  background-color: var(--color-bg);
+}
+
+.container {
+  width: 50%;
+  height: 50%;
+  top: 0%;
+  left: 0%;
+  position: relative;
+  animation: flow ease-in-out infinite;
+}
+
+.container:nth-child(1) {
+  animation-duration: 8s;
+}
+
+.container:nth-child(2) {
+  animation-duration: 6s;
+  animation-direction: reverse;
+}
+
+.container:nth-child(3) {
+  animation-duration: 10s;
+}
+
+.container:nth-child(4) {
+  animation-duration: 9.5s;
+  animation-direction: reverse;
+}
+
+.container > div {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  position: absolute;
+  transform-origin: left;
+  animation: change-color 3s linear infinite;
+}
+
+.container > div:nth-child(1) {
+  left: 40%;
+  top: 10%;
+  width: 15px;
+  height: 15px;
+  padding: 10px;
+  background-color: var(--color-particle-1);
+  box-shadow: 0 0 32px 16px var(--color-particle-1);
+}
+
+.container > div:nth-child(2) {
+  left: 0%;
+  top: 90%;
+  padding: -10px;
+  background-color: var(--color-particle-2);
+  box-shadow: 0 0 32px 16px var(--color-particle-2);
+}
+
+.container > div:nth-child(3) {
+  left: 80%;
+  top: 100%;
+  width: 25px;
+  height: 25px;
+  background-color: var(--color-particle-3);
+  box-shadow: 0 0 32px 16px var(--color-particle-3);
+}
+
+@keyframes change-color {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+  100% {
+    filter: hue-rotate(360deg);
+  }
+}
+
+@keyframes flow {
+  0% {
+    transform: rotateZ(0deg);
+    top: 0%;
+    left: 0%;
+  }
+  25% {
+    transform: rotateZ(180deg);
+    top: 35%;
+    left: 25%;
+  }
+  50% {
+    transform: rotateZ(360deg);
+    top: 15%;
+    left: 15%;
+  }
+  75% {
+    transform: rotateZ(180deg);
+    top: -35%;
+    left: -25%;
+  }
+  100% {
+    transform: rotateZ(0deg);
+    top: 0%;
+    left: 0%;
+  }
+}
