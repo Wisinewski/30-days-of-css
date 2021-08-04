@@ -43,6 +43,7 @@
 ## Dia 21 - Esferas quicando
 <img alt="challenge 21" title="challenge 21" src="./challenge-21/challenge-21.gif" width="500px"><a></a>
 ## Dia 22 - Icones com efeito
+<img alt="challenge 22" title="challenge 22" src="./challenge-22/challenge-22.gif" width="500px"><a></a>
 ## Dia 23 - Botão com efeito hover
 ## Dia 24 - Preloader animado
 ## Dia 25 - Checkbox animado
