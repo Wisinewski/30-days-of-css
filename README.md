@@ -45,6 +45,7 @@
 ## Dia 22 - Icones com efeito
 <img alt="challenge 22" title="challenge 22" src="./challenge-22/challenge-22.gif" width="500px"><a></a>
 ## Dia 23 - Botão com efeito hover
+<img alt="challenge 23" title="challenge 23" src="./challenge-23/challenge-23.gif" width="500px"><a></a>
 ## Dia 24 - Preloader animado
 ## Dia 25 - Checkbox animado
 ## Dia 26 - Loading com efeito
