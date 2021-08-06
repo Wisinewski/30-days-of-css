@@ -1,0 +1,92 @@
+:root {
+  --color-bg: #0B1431;
+  --color-loader-1: #F05A66;
+  --color-loader-2: #FAECA8;
+  --color-loader-3: #267CAC;
+  --color-loader-4: #61ECBB;
+  --loader-size: 100px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-bg);
+}
+
+.load-wrapper {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  transform: rotate(-45deg);
+  animation: grow 1s linear infinite;
+}
+
+.load-wrapper > div {
+  width: calc(var(--loader-size) / 2);
+  height: calc(var(--loader-size) / 2);
+  position: absolute;
+  animation: rotate 1s linear infinite;
+}
+
+.load-wrapper > div:nth-child(1) {
+  left: 0;
+  top: 0;
+  background-color: var(--color-loader-1);
+}
+
+.load-wrapper > div:nth-child(2) {
+  right: 0;
+  top: 0;
+  background-color: var(--color-loader-2);
+}
+
+.load-wrapper > div:nth-child(3) {
+  left: 0;
+  bottom: 0;
+  background-color: var(--color-loader-3);
+}
+
+.load-wrapper > div:nth-child(4) {
+  right: 0;
+  bottom: 0;
+  background-color: var(--color-loader-4);
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0)
+  }
+  50% {
+    transform: rotate(90deg)
+  }
+  to {
+    transform: rotate(90deg)
+  }
+}
+
+@keyframes grow {
+  0% {
+    width: var(--loader-size);
+    height: var(--loader-size);
+  }
+  45% {
+    width: calc(var(--loader-size) * 1.4);
+    height: calc(var(--loader-size) * 1.4);
+  }
+  90% {
+    width: var(--loader-size);
+    height: var(--loader-size);
+  }
+  100% {
+    width: var(--loader-size);
+    height: var(--loader-size);
+  }
+}
