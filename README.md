@@ -47,6 +47,7 @@
 ## Dia 23 - Botão com efeito hover
 <img alt="challenge 23" title="challenge 23" src="./challenge-23/challenge-23.gif" width="500px"><a></a>
 ## Dia 24 - Preloader animado
+<img alt="challenge 24" title="challenge 24" src="./challenge-24/challenge-24.gif" width="500px"><a></a>
 ## Dia 25 - Checkbox animado
 ## Dia 26 - Loading com efeito
 ## Dia 27 - Efeito pulsar
