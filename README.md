@@ -49,6 +49,7 @@
 ## Dia 24 - Preloader animado
 <img alt="challenge 24" title="challenge 24" src="./challenge-24/challenge-24.gif" width="500px"><a></a>
 ## Dia 25 - Checkbox animado
+<img alt="challenge 25" title="challenge 25" src="./challenge-25/challenge-25.gif" width="500px"><a></a>
 ## Dia 26 - Loading com efeito
 ## Dia 27 - Efeito pulsar
 ## Dia 28 - Cor do background mudando

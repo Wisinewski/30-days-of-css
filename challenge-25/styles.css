@@ -1,0 +1,63 @@
+:root {
+  --color-bg: #252525;
+  --color-primary: #535353;
+  --color-animation: rgb(73, 173, 240);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-bg);
+}
+
+.icon-area {
+  width: 400px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-wrapper > label:hover {
+  cursor: pointer;
+}
+
+.icon-wrapper > label > span {
+  font-size: 40px;
+  color: var(--color-primary);
+}
+
+.icon-wrapper > input[type="checkbox"] {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.icon-wrapper > input:checked ~ label > span {
+  animation: change-color 3s linear infinite;
+}
+
+@keyframes change-color {
+  0% {
+    filter: hue-rotate(0deg);
+    color: var(--color-animation);
+  }
+  100% {
+    filter: hue-rotate(360deg);
+    color: var(--color-animation);
+  }
+}
