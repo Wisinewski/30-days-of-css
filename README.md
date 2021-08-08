@@ -51,6 +51,7 @@
 ## Dia 25 - Checkbox animado
 <img alt="challenge 25" title="challenge 25" src="./challenge-25/challenge-25.gif" width="500px"><a></a>
 ## Dia 26 - Loading com efeito
+<img alt="challenge 26" title="challenge 26" src="./challenge-26/challenge-26.gif" width="500px"><a></a>
 ## Dia 27 - Efeito pulsar
 ## Dia 28 - Cor do background mudando
 ## Dia 29 - Menu responsivo com Media Queries
