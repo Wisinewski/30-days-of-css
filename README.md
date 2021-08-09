@@ -53,6 +53,7 @@
 ## Dia 26 - Loading com efeito
 <img alt="challenge 26" title="challenge 26" src="./challenge-26/challenge-26.gif" width="500px"><a></a>
 ## Dia 27 - Efeito pulsar
+<img alt="challenge 27" title="challenge 27" src="./challenge-27/challenge-27.gif" width="500px"><a></a>
 ## Dia 28 - Cor do background mudando
 ## Dia 29 - Menu responsivo com Media Queries
 ## Dia 30 - Fogos de artificio
