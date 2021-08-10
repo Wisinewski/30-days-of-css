@@ -1,0 +1,53 @@
+:root {
+  --color-bg-1: gray;
+  --color-bg-2: green;
+  --color-bg-3: tomato;
+  --color-bg-4: #252525;
+  --color-bg-5: blue;
+  --color-text: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: change-color 15s linear infinite;
+}
+
+.text-wrapper {
+  text-align: center;
+}
+
+.text-wrapper > span {
+  font-family: Roboto, 'sans-serif';
+  font-size: 72px;
+  color: var(--color-text);
+}
+
+@keyframes change-color {
+  0% {
+    background-color: var(--color-bg-1);
+  }
+  20% {
+    background-color: var(--color-bg-2);
+  }
+  40% {
+    background-color: var(--color-bg-3);
+  }
+  60% {
+    background-color: var(--color-bg-4);
+  }
+  80% {
+    background-color: var(--color-bg-5);
+  }
+  100% {
+    background-color: var(--color-bg-1);
+  }
+}

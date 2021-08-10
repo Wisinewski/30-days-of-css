@@ -55,5 +55,6 @@
 ## Dia 27 - Efeito pulsar
 <img alt="challenge 27" title="challenge 27" src="./challenge-27/challenge-27.gif" width="500px"><a></a>
 ## Dia 28 - Cor do background mudando
+<img alt="challenge 28" title="challenge 28" src="./challenge-28/challenge-28.gif" width="500px"><a></a>
 ## Dia 29 - Menu responsivo com Media Queries
 ## Dia 30 - Fogos de artificio
