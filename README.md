@@ -57,4 +57,5 @@
 ## Dia 28 - Cor do background mudando
 <img alt="challenge 28" title="challenge 28" src="./challenge-28/challenge-28.gif" width="500px"><a></a>
 ## Dia 29 - Menu responsivo com Media Queries
+<img alt="challenge 29" title="challenge 29" src="./challenge-29/challenge-29.gif" width="500px"><a></a>
 ## Dia 30 - Fogos de artificio
