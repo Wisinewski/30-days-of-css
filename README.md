@@ -59,3 +59,5 @@
 ## Dia 29 - Menu responsivo com Media Queries
 <img alt="challenge 29" title="challenge 29" src="./challenge-29/challenge-29.gif" width="500px"><a></a>
 ## Dia 30 - Fogos de artificio
+<img alt="challenge 30" title="challenge 30" src="./challenge-30/challenge-30.gif" width="500px"><a></a>
+
